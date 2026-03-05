@@ -5,10 +5,10 @@
             "name": "Debug Current C++ File",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/cpp_preimer_5/chapter1/${fileBasenameNoExtension}.exe",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
+            "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": true,
             "MIMode": "gdb"
