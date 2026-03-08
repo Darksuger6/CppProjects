@@ -1,41 +1,54 @@
-# Prerequisites
+# ===== Dependency files =====
 *.d
 
-# Compiled Object files
+# ===== Object files =====
 *.slo
 *.lo
 *.o
 *.obj
 
-# Precompiled Headers
+# ===== Precompiled Headers =====
 *.gch
 *.pch
 
-# Linker files
+# ===== Linker files =====
 *.ilk
 
-# Debugger Files
+# ===== Debugger Files =====
 *.pdb
 
-# Compiled Dynamic libraries
+# ===== Dynamic libraries =====
 *.so
 *.dylib
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
+# ===== Static libraries =====
 *.lai
 *.la
 *.a
 *.lib
 
-# Executables
+# ===== Fortran module files =====
+*.mod
+*.smod
+
+# ===== Executables =====
 *.exe
 *.out
 *.app
+*.exec
 
-# debug information files
+# ===== Debug information =====
 *.dwo
+*.dSYM/
+
+# ===== macOS =====
+.DS_Store
+
+# ===== Build directories (重要) =====
+build/
+bin/
+out/
+
+# ===== IDE =====
+.vscode/
