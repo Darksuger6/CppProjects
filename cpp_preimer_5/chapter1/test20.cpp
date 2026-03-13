@@ -1,6 +1,11 @@
 #include <iostream>
 #include "../src/1/Sales_item.h"
 
+/*
+    编译时：
+    g++ test20.cpp -g -o test20 -I ../src
+*/   
+
 int main()
 {
     Sales_item item1, item2;
